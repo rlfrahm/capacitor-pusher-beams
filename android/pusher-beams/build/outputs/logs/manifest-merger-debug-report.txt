@@ -8,7 +8,7 @@ INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/m
 INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:3-4:12
 INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:3-4:12
 	package
-		ADDED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:3:5-45
+		ADDED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:3:5-54
 		INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml
 		INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml
 	android:versionName
