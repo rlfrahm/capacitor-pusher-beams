@@ -5,7 +5,7 @@ export class PusherBeamsWeb extends WebPlugin implements PusherBeamsPlugin {
   constructor() {
     super({
       name: 'PusherBeams',
-      platforms: ['web']
+      platforms: ['web', 'android']
     });
   }
 
