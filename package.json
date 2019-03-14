@@ -1,5 +1,5 @@
 {
-  "name": "pusher-beams",
+  "name": "@cesarbarone/capacitor-pusher-beams",
   "version": "0.0.1",
   "description": "Pusher Beams Capacitor plugin",
   "main": "dist/esm/index.js",
