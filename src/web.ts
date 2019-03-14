@@ -13,6 +13,10 @@ export class PusherBeamsWeb extends WebPlugin implements PusherBeamsPlugin {
     console.log('ECHO', options);
     return options;
   }
+
+  async setUserID(options: { beamsAuthURL: string, userID: string }): Promise<{ beamsAuthURL: string, userID: string }> {
+    return options;
+  }
 }
 
 const PusherBeams = new PusherBeamsWeb();
