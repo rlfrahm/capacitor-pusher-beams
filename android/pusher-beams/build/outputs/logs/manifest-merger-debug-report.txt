@@ -1,26 +1,26 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:3-4:12
-INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:3-4:12
-INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:3-4:12
-INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:3-4:12
-INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:3-4:12
-INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:3-4:12
-INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:3-4:12
+ADDED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:1-4:12
 	package
-		ADDED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:3:5-54
+		ADDED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:3:5-42
 		INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml
 		INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml
-		ADDED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:3-4:12
+		ADDED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:1-4:12
 		INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml
-		ADDED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:3-4:12
+		ADDED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:1-4:12
 		INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:13-71
+		ADDED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
 INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/cesarcosta/projetos/pusher-beams/android/pusher-beams/src/main/AndroidManifest.xml
