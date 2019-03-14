@@ -2,7 +2,6 @@ package com.cesarbarone.pusherbeams;
 
 import android.util.Log;
 
-import com.getcapacitor.JSArray;
 import com.getcapacitor.JSObject;
 import com.getcapacitor.NativePlugin;
 import com.getcapacitor.Plugin;
