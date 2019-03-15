@@ -1,6 +1,6 @@
 {
   "name": "@cesarbarone/capacitor-pusher-beams",
-  "version": "0.0.1-alpha.3",
+  "version": "0.0.1-alpha.4",
   "description": "Pusher Beams Capacitor plugin",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
