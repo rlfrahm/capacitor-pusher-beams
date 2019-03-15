@@ -94,15 +94,15 @@ public class PusherBeams extends Plugin {
                 @Override
                 public AuthData getAuthData() {
                 // Headers and URL query params your auth endpoint needs to
-                // request a Beams Token for a given user
-                HashMap<String, String> headers = new HashMap<>();
-                // for example:
-                // headers.put("Authorization", sessionToken);
-                HashMap<String, String> queryParams = new HashMap<>();
-                return new AuthData(
-                        headers,
-                        queryParams
-                );
+                    // request a Beams Token for a given user
+                    HashMap<String, String> headers = new HashMap<>();
+                    // for example:
+                    // headers.put("Authorization", sessionToken);
+                    HashMap<String, String> queryParams = new HashMap<>();
+                    return new AuthData(
+                            headers,
+                            queryParams
+                    );
                 }
             }
         );
