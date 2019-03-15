@@ -15,6 +15,7 @@ import com.pusher.pushnotifications.auth.AuthDataGetter;
 import com.pusher.pushnotifications.auth.BeamsTokenProvider;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Set;
 
 @NativePlugin()
@@ -86,23 +87,19 @@ public class PusherBeams extends Plugin {
         String beamsAuthURl = call.getString("beamsAuthURL");
         String userID = call.getString("userID");
         JSObject headers = call.getObject("headers");
-        JSObject queryParams = call.getObject("queryParams");
+
+        final HashMap headersHashMap = hashMapOf(headers);
 
         BeamsTokenProvider tokenProvider = new BeamsTokenProvider(
             beamsAuthURl,
             new AuthDataGetter() {
                 @Override
                 public AuthData getAuthData() {
-                // Headers and URL query params your auth endpoint needs to
-                    // request a Beams Token for a given user
-                    HashMap<String, String> headers = new HashMap<>();
-                    // for example:
-                    // headers.put("Authorization", sessionToken);
-                    HashMap<String, String> queryParams = new HashMap<>();
-                    return new AuthData(
-                            headers,
-                            queryParams
-                    );
+                HashMap<String, String> queryParams = new HashMap<>();
+                return new AuthData(
+                    headersHashMap,
+                    queryParams
+                );
                 }
             }
         );
@@ -142,4 +139,17 @@ public class PusherBeams extends Plugin {
         ret.put("success", false);
         call.success(ret);
     }
+
+
+    public static HashMap<String, String> hashMapOf(JSObject object) {
+        HashMap<String, String> hashMap = new HashMap<>();
+        Iterator<String> keysIt = object.keys();
+        while (keysIt.hasNext()) {
+            String key = keysIt.next();
+            String value = object.getString(key);
+            hashMap.put(key, value);
+        }
+        return hashMap;
+    }
+
 }
