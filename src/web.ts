@@ -17,9 +17,11 @@ export class PusherBeamsWeb extends WebPlugin implements PusherBeamsPlugin {
     throw new Error("Method not implemented.");
   }
   async addDeviceInterest(options: { interest: string; }): Promise<{ success: boolean; }> {
+    console.log('addDeviceInterest', options);
     return Promise.resolve({success: true});
   }
   async removeDeviceInterest(options: { interest: string; }): Promise<{ success: boolean; }> {
+    console.log('removeDeviceInterest', options);
     return Promise.resolve({ success: true });
   }
   async getDeviceInterests(options: { interests: String[]; }): Promise<{ interests: String[]; }> {
@@ -45,6 +47,7 @@ export class PusherBeamsWeb extends WebPlugin implements PusherBeamsPlugin {
   }
 
   async setUserID(options: { beamsAuthURL: string, userID: string }): Promise<{ success: boolean, message: string }> {
+    console.log('setUserID', options);
     return Promise.resolve({success: true, message: 'success'});
   }
 }
