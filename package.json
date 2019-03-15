@@ -1,6 +1,6 @@
 {
   "name": "@cesarbarone/capacitor-pusher-beams",
-  "version": "0.0.1-alpha-1",
+  "version": "0.0.1-alpha.2",
   "description": "Pusher Beams Capacitor plugin",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -13,7 +13,7 @@
   "author": "César Barone",
   "license": "MIT",
   "dependencies": {
-    "@capacitor/core": "latest"
+    "@capacitor/core": "^1.0.0-beta.19"
   },
   "devDependencies": {
     "typescript": "^2.6.2"
