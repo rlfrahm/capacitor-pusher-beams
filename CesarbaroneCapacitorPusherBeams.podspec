@@ -1,6 +1,6 @@
 
   Pod::Spec.new do |s|
-    s.name = 'PusherBeams'
+    s.name = 'CesarbaroneCapacitorPusherBeams'
     s.version = '0.0.1'
     s.summary = 'Pusher Beams Capacitor plugin'
     s.license = 'MIT'
